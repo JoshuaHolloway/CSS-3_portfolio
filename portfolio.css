@@ -1,0 +1,59 @@
+h1 {
+  font-family: cursive;
+}
+
+/*----------------------------------------------------------------------------*/
+#container{
+  width: 1000px;
+  background: gray;
+
+  overflow: hidden;
+  height: auto;
+}
+/*----------------------------------------------------------------------------*/
+#main-box{
+  background: purple;
+  width: 1000px;
+  height: 500px;
+}
+/*----------------------------------------------------------------------------*/
+#upper-left-box{
+  background: blue;
+  height: 200px;
+  width: 200px;
+  float: left;
+
+  border: 1px solid grey;
+  margin: 20px;
+}
+/*----------------------------------------------------------------------------*/
+#upper-right-box{
+  background: blue;
+  height: 200px;
+  width: 200px;
+  float: right;
+
+  border: 1px solid grey;
+  margin: 20px;
+}
+/*----------------------------------------------------------------------------*/
+#second-row-right-box{
+  background: grey;
+  min-height: 250px;
+  width: 200px;
+  float: right;
+
+  border: 1px solid grey;
+  margin: 10px;
+}
+/*----------------------------------------------------------------------------*/
+#second-row-right-box{
+  background: green;
+  min-height: 350px;
+  width: 100px;
+  float: right;
+
+  border: 1px solid grey;
+  margin: 20px;
+}
+/*----------------------------------------------------------------------------*/
