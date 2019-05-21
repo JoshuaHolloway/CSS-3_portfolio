@@ -21,8 +21,20 @@ h1 {
   width: 900px;
   min-height: 200px;
   margin: 50px;
-
 }
+/*----------------------------------------------------------------------------*/
 #row-1 {background: yellow;}
 #row-2 {background: orange;}
 /*----------------------------------------------------------------------------*/
+#row-1_col-1 { background: blue;
+  width: 360px;
+  min-height: 160px;
+  margin:20px;
+}
+#row-1_col-2 { background: green;
+  width: 460px;
+  min-height: 160px;
+    margin:20px;
+}
+
+#row-1_col-1, #row-1_col-2 { float: left; }
