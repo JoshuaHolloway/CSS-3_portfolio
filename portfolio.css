@@ -16,11 +16,11 @@ h1 {
 #r1, #r2 {
   width: 900px;
 
-  margin: 50px;
+  margin: 80px;
 }
 /*----------------------------------------------------------------------------*/
 #r1 {background: yellow;
-  height: 200px;
+  height: 280px;
 }
 #r2 {background: orange;
   height: 530px;
@@ -34,7 +34,7 @@ h1 {
 #r1_c2 { background: green;
   width: 460px;
   min-height: 160px;
-    margin:20px;
+  margin:20px;
 }
 #r1_c1, #r1_c2 { float: left; }
 /*----------------------------------------------------------------------------*/
