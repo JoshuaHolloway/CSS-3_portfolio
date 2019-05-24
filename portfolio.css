@@ -8,9 +8,9 @@
   height: 987px;
 
   /* DEBUG */
-  background-image: url("spec.png");
+  /* background-image: url("spec.png");
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 /*----------------------------------------------------------------------------*/
 .div-titles {
@@ -21,7 +21,7 @@
 #header { background: blue;
     height: 65px;
     /* DEBUG */
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 /*----------------------------------------------------------------------------*/
 #header-left {
@@ -49,7 +49,7 @@
   border-color: white;
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 /*----------------------------------------------------------------------------*/
 #upper-right-box { background: blue;
@@ -61,7 +61,7 @@
   width: 497px;
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 /*----------------------------------------------------------------------------*/
 .div-titles { background: silver;
@@ -74,7 +74,7 @@
 
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 /*----------------------------------------------------------------------------*/
 #text-About {
@@ -107,7 +107,7 @@
   display: inline-block;
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 .columns, #column-2 {
     background: red;
@@ -116,7 +116,9 @@
     margin-left: 24px;
     margin-top: 25px;
     display: inline-block;
-    opacity: 0.5;
+
+    /* DEBUG */
+    /* opacity: 0.5; */
 }
 .columns, #column-3 {
     background: red;
@@ -125,7 +127,9 @@
     margin-left: 24px;
     margin-top: 25px;
     display: inline-block;
-    opacity: 0.5;
+
+    /* DEBUG */
+    /* opacity: 0.5; */
 }
 /*----------------------------------------------------------------------------*/
 #image1 {
