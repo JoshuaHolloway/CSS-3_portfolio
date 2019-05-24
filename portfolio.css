@@ -8,9 +8,9 @@
   height: 987px;
 
   /* DEBUG */
-  background-image: url("spec.png");
+  /* background-image: url("spec.png");
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 /*----------------------------------------------------------------------------*/
 .div-titles {
@@ -40,4 +40,18 @@
   padding-top: 19px;
   padding-right: 42px;
 }
+/*----------------------------------------------------------------------------*/
+#image_ {
+  height:      271px;
+  padding-top:  26px;
+  padding-left: 31px;
+  border:        1px;
+  border-color: white;
+
+  /* DEBUG */
+  /* opacity: 0.5; */
+
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
