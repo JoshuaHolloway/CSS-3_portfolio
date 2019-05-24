@@ -97,3 +97,13 @@
 #link {
   padding-left: 12px;
 }
+/*----------------------------------------------------------------------------*/
+#columns { background: red;
+  height: 569px;
+  width: 299px;
+  margin-left: 27px;
+  margin-top: 25px;
+
+  /* DEBUG */
+  opacity: 0.5;
+}
