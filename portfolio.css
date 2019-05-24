@@ -52,7 +52,7 @@
   opacity: 0.5;
 }
 /*----------------------------------------------------------------------------*/
-#upper-right-box { background: red;
+#upper-right-box { background: blue;
   display: inline-block;
   vertical-align: top;
   margin-top: 21px;
@@ -79,4 +79,21 @@
 /*----------------------------------------------------------------------------*/
 #text-About {
   color: blue;
+}
+/*----------------------------------------------------------------------------*/
+#upper-right-box-text-1 {
+  color: red;
+  padding-left: 11px;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+#upper-right-box-text-2 {
+  color: red;
+  padding-top: 18px;
+  padding-left: 11px;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+#link {
+  padding-left: 12px;
 }
