@@ -8,9 +8,9 @@
   height: 987px;
 
   /* DEBUG */
-  /* background-image: url("spec.png");
+  background-image: url("spec.png");
   background-size: contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 /*----------------------------------------------------------------------------*/
 .div-titles {
@@ -49,9 +49,21 @@
   border-color: white;
 
   /* DEBUG */
-  /* opacity: 0.5; */
-
+  opacity: 0.5;
 }
 /*----------------------------------------------------------------------------*/
+#upper-right-box { background: red;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 21px;
+  margin-left: 27px;
+
+
+  height: 280px;
+  width: 497px;
+
+  /* DEBUG */
+  opacity: 0.5;
+}
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
