@@ -57,8 +57,6 @@
   vertical-align: top;
   margin-top: 21px;
   margin-left: 27px;
-
-
   height: 280px;
   width: 497px;
 
@@ -66,4 +64,19 @@
   opacity: 0.5;
 }
 /*----------------------------------------------------------------------------*/
+.div-titles { background: silver;
+  height: 43px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+  font-size: 19px;
+  font-family: sans-serif;
+
+
+  /* DEBUG */
+  opacity: 0.5;
+}
 /*----------------------------------------------------------------------------*/
+#text-About {
+  color: blue;
+}
