@@ -90,17 +90,61 @@ main {
   /* opacity: 0.5; */
 }
 
+
+/* -------------------------------------------------------------------------- */
+/* 1st-row in columns */
 #r1 {
   background: yellow;
   height: 367px;
-
   margin-top: 0px;
 }
 
+#r1 img {
+  height: 163px;
+  padding-top: 1px;
+  padding-left: 3px;
+}
+
+#r1 p {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: black;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* 2nd-row in columns */
 #r2 {
   background: blue;
   height: 209px;
 }
+
+#r2 img {
+  height: 40px;
+  margin-top: 11px;
+  margin-left: 14px;
+}
+
+#r2 a {
+  background: green;
+  height: 22px;
+  width: 60px;
+  display: block;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 117px;
+  box-shadow: 8px 4px 5px 0px black;
+  border: 1px black solid;
+  text-decoration: inherit;
+  color: white;
+  padding-top: 5px;
+  padding-left: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+/* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 .div-titles-text {
@@ -111,9 +155,11 @@ main {
 }
 #tech-text {}
 /* -------------------------------------------------------------------------- */
-#r2 img {
-  height: 40px;
-  margin-top: 11px;
-  margin-left: 14px;
-}
+/* -------------------------------------------------------------------------- */
+/* .josh{
+  background: red;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+} */
 /* -------------------------------------------------------------------------- */
