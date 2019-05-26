@@ -150,14 +150,9 @@
   margin-top: 49px;
 }
 /*----------------------------------------------------------------------------*/
-.tech-imgs {
+.columns img {
   height: 41px;
   margin-top: -4px;
   margin-left: 12px;
 }
 /*----------------------------------------------------------------------------*/
-.tech-imgs-r2 {
-  height: 41px;
-  margin-top: 10px;
-  margin-left: 12px;
-}
