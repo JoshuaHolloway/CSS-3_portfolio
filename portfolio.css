@@ -9,7 +9,7 @@ header {
   height: 66px;
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 /* -------------------------------------------------------------------------- */
 #container {
@@ -25,10 +25,11 @@ header {
 /* -------------------------------------------------------------------------- */
 main {
   height: 934px;
-  background: green;
+  /* background: green; */
+  background-image: radial-gradient(purple, silver, purple);
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 /* -------------------------------------------------------------------------- */
 #row-1 {
@@ -43,7 +44,7 @@ main {
   margin-left: 29px;
 
   /* DEBUG */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 
 }
 
@@ -59,7 +60,7 @@ main {
   margin-left: 27px;
 
   /* DEBUG */
-   opacity: 0.5;
+   /* opacity: 0.5; */
 }
 /* -------------------------------------------------------------------------- */
 #row-2 {
