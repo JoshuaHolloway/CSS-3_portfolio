@@ -18,7 +18,7 @@
   background-image: linear-gradient(#B4B4B7, #888894, #B3B3B5);
 }
 /*----------------------------------------------------------------------------*/
-#header { background: blue;
+header { background: blue;
     height: 65px;
     /* DEBUG */
     /* opacity: 0.5; */
