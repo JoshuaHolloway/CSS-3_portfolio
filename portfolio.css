@@ -71,7 +71,9 @@ main {
 }
 
 .columns  {
-  background: red;
+  background-image: linear-gradient(to left, silver, white);
+
+  /* background: red; */
   height: 575px;
   width: 302px;
   margin-top: 21px;
@@ -95,7 +97,7 @@ main {
 /* -------------------------------------------------------------------------- */
 /* 1st-row in columns */
 #r1 {
-  background: yellow;
+  /* background: yellow; */
   height: 367px;
   margin-top: 0px;
 }
@@ -118,7 +120,7 @@ main {
 /* -------------------------------------------------------------------------- */
 /* 2nd-row in columns */
 #r2 {
-  background: blue;
+  /* background: blue; */
   height: 209px;
 }
 
