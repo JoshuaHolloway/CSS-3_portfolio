@@ -154,19 +154,20 @@ background-image: linear-gradient(to left, silver, white);
 #r2 a {
   background: green;
   height: 22px;
-  width: 60px;
+  width: 114px;
   display: block;
   border-radius: 7px;
   margin-top: 10px;
-  margin-left: 117px;
+  margin-left: 92px;
   box-shadow: 8px 4px 5px 0px black;
   border: 1px black solid;
   text-decoration: inherit;
   color: white;
-  padding-top: 5px;
-  padding-left: 6px;
+  padding-top: 7px;
+  padding-left: 0px;
   font-family: sans-serif;
   font-size: 14px;
+  text-align: center;
 }
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
