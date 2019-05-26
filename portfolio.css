@@ -18,12 +18,12 @@ header {
   width: 1013px;
 
   /* DEBUG */
-  background-image: url("spec.png");
+  /* background-image: url("spec.png");
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 /* -------------------------------------------------------------------------- */
-#main-content {
+main {
   height: 934px;
   background: green;
 
@@ -31,14 +31,83 @@ header {
   opacity: 0.5;
 }
 /* -------------------------------------------------------------------------- */
+#row-1 {
+  /* DEBUG */
+  /* background: yellow;
+  opacity: 0.5; */
+}
 #row-1 img{
   height: 272px;
   border: 5px solid silver;
   margin-top: 23px;
   margin-left: 29px;
 
-
   /* DEBUG */
   opacity: 0.5;
+
 }
+
+#row-1 div {
+  background: orange;
+  height: 280px;
+  width: 497px;
+
+  display: inline-block;
+  vertical-align: top;
+
+  margin-top: 21px;
+  margin-left: 27px;
+
+  /* DEBUG */
+   opacity: 0.5;
+}
+/* -------------------------------------------------------------------------- */
+#row-2 {
+  /* DEBUG */
+  /* background: yellow;
+  opacity: 0.5;
+  height: 600px; */
+}
+
+.columns  {
+  background: red;
+  height: 575px;
+  width: 302px;
+  margin-top: 21px;
+  margin-right: -5px;
+  margin-left: 27px;
+  display: inline-block;
+  vertical-align: top;
+
+  /* DEBUG */
+  /* opacity: 0.5; */
+}
+
+.columns div {
+  width: 302px;
+
+  /* DEBUG:  */
+  /* opacity: 0.5; */
+}
+
+#r1 {
+  background: yellow;
+  height: 367px;
+
+  margin-top: 0px;
+}
+
+#r2 {
+  background: blue;
+  height: 209px;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.div-titles-text {
+  background-image: linear-gradient(#B4B4B7, #888894, #B3B3B5);
+  height: 25px;
+  margin-top: 0px;
+  padding: 9px
+}
+#tech-text {}
 /* -------------------------------------------------------------------------- */
