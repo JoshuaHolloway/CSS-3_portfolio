@@ -5,7 +5,7 @@
 }
 /* -------------------------------------------------------------------------- */
 header {
-  background: red;
+  background: silver;
   height: 66px;
 
   /* DEBUG */
@@ -24,19 +24,23 @@ header {
 }
 /* -------------------------------------------------------------------------- */
 main {
-  height: 934px;
+  height: 940px;
   /* background: green; */
-  background-image: radial-gradient(purple, silver, purple);
+  background-image: radial-gradient(purple, silver, purple) !important;
 
   /* DEBUG */
   /* opacity: 0.5; */
 }
 /* -------------------------------------------------------------------------- */
+/* Top row (below heading - contains image and About section) */
 #row-1 {
   /* DEBUG */
   /* background: yellow;
   opacity: 0.5; */
+
+  /* height: 100px; */
 }
+
 #row-1 img{
   height: 272px;
   border: 5px solid silver;
@@ -48,8 +52,10 @@ main {
 
 }
 
+/* Upper-right box ("About..") */
 #row-1 div {
-  background: orange;
+  background-image: linear-gradient(to left, silver, white);
+
   height: 280px;
   width: 497px;
 
@@ -71,7 +77,7 @@ main {
 }
 
 .columns  {
-  background-image: linear-gradient(to left, silver, white);
+background-image: linear-gradient(to left, silver, white);
 
   /* background: red; */
   height: 575px;
@@ -92,13 +98,11 @@ main {
   /* DEBUG:  */
   /* opacity: 0.5; */
 }
-
-
 /* -------------------------------------------------------------------------- */
 /* 1st-row in columns */
 #r1 {
   /* background: yellow; */
-  height: 367px;
+  height: 384px;
   margin-top: 0px;
 }
 
@@ -108,11 +112,11 @@ main {
   padding-left: 3px;
 }
 
-#r1 p {
+#r1 p, #row-1 p, #row-1 a {
   font-family: sans-serif;
   font-size: 15px;
   color: black;
-  padding-top: 2px;
+  padding-top: 7px;
   padding-left: 10px;
 }
 /* -------------------------------------------------------------------------- */
@@ -154,7 +158,9 @@ main {
   background-image: linear-gradient(#B4B4B7, #888894, #B3B3B5);
   height: 25px;
   margin-top: 0px;
-  padding: 9px
+  padding: 9px;
+  color: white;
+  font-family: sans-serif;
 }
 #tech-text {}
 /* -------------------------------------------------------------------------- */
