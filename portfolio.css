@@ -1,158 +1,44 @@
-* {
+*{
   margin: 0px;
   padding: 0px;
+  border: 0px;
 }
-/*----------------------------------------------------------------------------*/
-#container{ background: red;
-  width: 1000px;
-  height: 987px;
-
-  /* DEBUG */
-  /* background-image: url("spec.png");
-  background-size: contain;
-  background-repeat: no-repeat; */
-}
-/*----------------------------------------------------------------------------*/
-.div-titles {
+/* -------------------------------------------------------------------------- */
+header {
   background: red;
-  background-image: linear-gradient(#B4B4B7, #888894, #B3B3B5);
-}
-/*----------------------------------------------------------------------------*/
-header { background: blue;
-    height: 65px;
-    /* DEBUG */
-    /* opacity: 0.5; */
-}
-/*----------------------------------------------------------------------------*/
-#header-left {
-  display: inline-block;
-  height: 100px;
-  width: 165px;
-  padding-top: 12px;
-  padding-left: 28px;
-}
-#header-right {
-  display: inline-block;
-  /* text-align: right;
-  vertical-align: top; */
-  float: right;
-
-  padding-top: 19px;
-  padding-right: 42px;
-}
-/*----------------------------------------------------------------------------*/
-#image_ {
-  height:      271px;
-  padding-top:  26px;
-  padding-left: 31px;
-  border:        1px;
-  border-color: white;
+  height: 66px;
 
   /* DEBUG */
-  /* opacity: 0.5; */
+  opacity: 0.5;
 }
-/*----------------------------------------------------------------------------*/
-#upper-right-box { background: blue;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 21px;
-  margin-left: 27px;
-  height: 280px;
-  width: 497px;
+/* -------------------------------------------------------------------------- */
+#container {
+  /* background: red; */
+  height: 1000px;
+  width: 1013px;
 
   /* DEBUG */
-  /* opacity: 0.5; */
+  background-image: url("spec.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-/*----------------------------------------------------------------------------*/
-.div-titles { background: silver;
-  height: 43px;
-  padding-left: 10px;
-  padding-top: 10px;
+/* -------------------------------------------------------------------------- */
+#main-content {
+  height: 934px;
+  background: green;
 
-  font-size: 19px;
-  font-family: sans-serif;
+  /* DEBUG */
+  opacity: 0.5;
+}
+/* -------------------------------------------------------------------------- */
+#row-1 img{
+  height: 272px;
+  border: 5px solid silver;
+  margin-top: 23px;
+  margin-left: 29px;
 
 
   /* DEBUG */
-  /* opacity: 0.5; */
+  opacity: 0.5;
 }
-/*----------------------------------------------------------------------------*/
-#text-About {
-  color: blue;
-}
-/*----------------------------------------------------------------------------*/
-#upper-right-box-text-1 {
-  color: red;
-  padding-left: 11px;
-  font-family: sans-serif;
-  font-size: 17px;
-}
-#upper-right-box-text-2 {
-  color: red;
-  padding-top: 18px;
-  padding-left: 11px;
-  font-family: sans-serif;
-  font-size: 17px;
-}
-#link {
-  padding-left: 12px;
-}
-/*----------------------------------------------------------------------------*/
-.columns { background: red;
-  height: 569px;
-  width: 299px;
-  margin-left: 27px;
-  margin-top: 25px;
-
-  display: inline-block;
-
-  /* DEBUG */
-  /* opacity: 0.5; */
-}
-.columns, #column-2 {
-    background: red;
-    height: 569px;
-    width: 299px;
-    margin-left: 24px;
-    margin-top: 25px;
-    display: inline-block;
-
-    /* DEBUG */
-    /* opacity: 0.5; */
-}
-.columns, #column-3 {
-    background: red;
-    height: 569px;
-    width: 299px;
-    margin-left: 24px;
-    margin-top: 25px;
-    display: inline-block;
-
-    /* DEBUG */
-    /* opacity: 0.5; */
-}
-/*----------------------------------------------------------------------------*/
-#image1 {
-  margin-top: -10px;
-  height: 165px;
-}
-/*----------------------------------------------------------------------------*/
-#text1 {
-  color: white;
-  margin-top: -4px;
-  margin-left: 10px;
-  font-size: 17px;
-}
-/*----------------------------------------------------------------------------*/
-#Technologies {
-  height:     31px;
-  color:     green;
-  margin-top: 49px;
-}
-/*----------------------------------------------------------------------------*/
-.columns img {
-  height: 41px;
-  margin-top: -4px;
-  margin-left: 12px;
-}
-/*----------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------- */
